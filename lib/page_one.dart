@@ -16,7 +16,7 @@ class _PageOneState extends State<PageOne> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.white,
       body: SafeArea(child: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(15.0),
@@ -26,7 +26,7 @@ class _PageOneState extends State<PageOne> {
            const Align(
               alignment: Alignment.center,
               child: Text("Welcome to Sebe “ The Meeting Company “",style: TextStyle(
-                color: Colors.white, fontSize: 16
+                color: Colors.black, fontSize: 16
               ),),
             ),
             const  SizedBox(height: 15,),
@@ -38,7 +38,7 @@ class _PageOneState extends State<PageOne> {
            const Align(
               alignment: Alignment.centerLeft,
               child: Text("Please Enter The Required Information Below :",style: TextStyle(
-                color: Colors.white, fontSize: 16
+                color: Colors.black, fontSize: 16
               ),),
             ),
            Form(
@@ -52,7 +52,7 @@ class _PageOneState extends State<PageOne> {
                         border: OutlineInputBorder(),
                         labelText: 'Name',
                         hintText: 'Enter Full Name',
-                        hintStyle: TextStyle(color: Colors.white)
+                        hintStyle: TextStyle(color: Colors.black)
                         ),
                     validator: MultiValidator([
                       RequiredValidator(errorText: "* Required"),
@@ -65,7 +65,7 @@ class _PageOneState extends State<PageOne> {
                         border: OutlineInputBorder(),
                         labelText: 'Phone Number',
                         hintText: 'Enter Valid Phone Number',
-                        hintStyle: TextStyle(color: Colors.white)
+                        hintStyle: TextStyle(color: Colors.black)
                         ),
                     validator: MultiValidator([
                       RequiredValidator(errorText: "* Required"),
@@ -78,7 +78,7 @@ class _PageOneState extends State<PageOne> {
                         border: OutlineInputBorder(),
                         labelText: 'Company Name',
                         hintText: 'Enter Company Name',
-                        hintStyle: TextStyle(color: Colors.white)
+                        hintStyle: TextStyle(color: Colors. black)
                         ),
                     validator: MultiValidator([
                       RequiredValidator(errorText: "* Required"),
@@ -91,7 +91,7 @@ class _PageOneState extends State<PageOne> {
                         border: OutlineInputBorder(),
                         labelText: 'Office',
                         hintText: 'Point Of Contact/Office',
-                        hintStyle: TextStyle(color: Colors.white)
+                        hintStyle: TextStyle(color: Colors.black)
                         ),
                     validator: MultiValidator([
                       RequiredValidator(errorText: "* Required"),
@@ -122,7 +122,7 @@ class _PageOneState extends State<PageOne> {
                         border: OutlineInputBorder(),
                         labelText: 'Email',
                         hintText: 'Enter Valid Email',
-                        hintStyle: TextStyle(color: Colors.white)
+                        hintStyle: TextStyle(color: Colors.black)
                         ),
                     validator: MultiValidator([
                       RequiredValidator(errorText: "* Required"),
@@ -135,7 +135,7 @@ class _PageOneState extends State<PageOne> {
                         border: OutlineInputBorder(),
                         labelText: 'Password',
                         hintText: 'Enter Your Password',
-                        hintStyle: TextStyle(color: Colors.white)
+                        hintStyle: TextStyle(color: Colors.black)
                         ),
                     validator: MultiValidator([
                       RequiredValidator(errorText: "* Required"),
