@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hostel/page_one.dart';
-import 'package:hostel/page_three.dart';
-import 'package:hostel/page_two.dart';
+import 'package:hostel/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const PageOne(),
+      home:  SplashPanga(),
     );
   }
 }
